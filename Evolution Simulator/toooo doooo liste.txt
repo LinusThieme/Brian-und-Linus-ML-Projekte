@@ -1,0 +1,8 @@
+Brian
+- Welt
+- Brain
+- Kollision
+
+Linus
+
+- Creature(reproduce,action -> Brain auswertung,sencing -> holt inputs
