@@ -12,7 +12,7 @@ class Tile{
   private float FoodValue = 100;
   
   //Constants
-  private final float WaterLevel = 0.5;
+  private final float WaterLevel = 0.45;
   
   //Esthetic Values
   color Color;
