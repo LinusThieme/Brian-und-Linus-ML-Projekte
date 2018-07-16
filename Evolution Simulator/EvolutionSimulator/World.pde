@@ -5,6 +5,8 @@ class World{
   //Constants
   private final int WIDTH = 128;
   private final int HEIGHT = 128;
+  private final double minimalFoodValueForReproduktion = 50;
+  private final float changeRange = 1;
   
   //Creatures Array
   private ArrayList<Creature> Creatures = new ArrayList<Creature>();
