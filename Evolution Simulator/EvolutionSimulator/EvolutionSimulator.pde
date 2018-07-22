@@ -11,6 +11,8 @@ void setup() {
   
   //Create a new World
   World = new World();
+  
+  
 }
 
 void draw() {

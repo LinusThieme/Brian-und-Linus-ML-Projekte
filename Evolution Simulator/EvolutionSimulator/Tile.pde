@@ -13,9 +13,14 @@ class Tile{
   
   //Constants
   private final float WaterLevel = 0.45;
+  private final int maxFood = 100;
   
   //Esthetic Values
   color Color;
+  
+  //Computational Variables
+  private final float regrowthRate = 1/600;
+  private float time = 0;
   
   //Constructor
   public Tile(int x, int y, float Elevation){
@@ -48,6 +53,11 @@ class Tile{
     popStyle();
     popMatrix();
     
+  }
+  
+  public void UpdateTile(float newTime){
+    float dt = newTime - time;
+    FoodValue = constrain(FoodValue + dt*regrowthRate, 0, maxFood);
   }
   
   
