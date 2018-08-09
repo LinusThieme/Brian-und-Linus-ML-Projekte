@@ -1,0 +1,10 @@
+(ck) - cause known
+(cu) - cause unknown
+
+
+
+Brian - fix camera aspect ratio(ck)
+Brian - add 3d documentation
+Brian - fix waterLevel(ck)
+Brian - add ground collision function
+Brian - add global seed for map generation
