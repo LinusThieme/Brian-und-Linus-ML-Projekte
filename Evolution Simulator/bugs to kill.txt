@@ -3,7 +3,8 @@
 
 
 
-Brian - fix camera aspect ratio(ck)
+Brian - fix camera aspect ratio(ck) - Resolved!
+Brian - fix backface culling - Resolved!
 Brian - add 3d documentation
 Brian - fix waterLevel(ck)
 Brian - add ground collision function

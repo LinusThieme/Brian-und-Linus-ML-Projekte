@@ -24,7 +24,7 @@ class FirstPersonPlayer {
     
     
     Update();
-    perspective(1.5707, width/height, 0.1, 200);
+    perspective(1.5707, (float)width/height, 0.1, 200);
     
     PVector looking = new PVector();
     looking = position.copy();

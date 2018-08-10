@@ -49,16 +49,16 @@ class World{
         
         model.fill(c2);
         model.vertex(v2.x, v2.y, v2.z);
-        model.fill(c4);
-        model.vertex(v4.x,v4.y,v4.z);
         model.fill(c1);
         model.vertex(v1.x, v1.y, v1.z);
-        model.fill(c2);
-        model.vertex(v2.x,v2.y,v2.z);
-        model.fill(c3);
-        model.vertex(v3.x, v3.y, v3.z);
         model.fill(c4);
         model.vertex(v4.x,v4.y,v4.z);
+        model.fill(c2);
+        model.vertex(v2.x,v2.y,v2.z);
+        model.fill(c4);
+        model.vertex(v4.x,v4.y,v4.z);
+        model.fill(c3);
+        model.vertex(v3.x, v3.y, v3.z);
         
         
         /////////////////////////////////////////////////////////////
